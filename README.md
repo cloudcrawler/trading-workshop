@@ -1,6 +1,6 @@
-# Hyper Bros Trading Workshop Starter
+# Shoping cart build on Next.js & Snipcart
 
-Hey there! This is a starter project for my workshop [](https://github.com/colbyfayock/hyper-bros-trading-workshop). If you're just browsing around, learn more about my workshop over at: https://github.com/colbyfayock/hyper-bros-trading-workshop
+Hey, this is the workshop I am working on to get hands on & practice my skill on NPM, Next.js & Snipcart referenced from[](https://github.com/colbyfayock/hyper-bros-trading-workshop). If you also love assignment based learning then this is the place for you: https://github.com/colbyfayock/hyper-bros-trading-workshop
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ Hey there! This is a starter project for my workshop [](https://github.com/colby
 
 ```
 npx create-next-app my-online-store -e https://github.com/colbyfayock/hyper-bros-trading-workshop-starter
-# or 
+# or
 yarn create next-app my-online-store -e https://github.com/colbyfayock/hyper-bros-trading-workshop-starter
 ```
 

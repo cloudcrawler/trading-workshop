@@ -1,9 +1,9 @@
-import Link from 'next/link';
-import { FaShoppingCart } from 'react-icons/fa';
+import Link from "next/link";
+import { FaShoppingCart } from "react-icons/fa";
 
-import Container from '@components/Container';
+import Container from "@components/Container";
 
-import styles from './Header.module.scss';
+import styles from "./Header.module.scss";
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
       <Container className={styles.headerContainer}>
         <p className={styles.headerTitle}>
           <Link href="/">
-            <a>Hyper Bros. Trading Cards</a>
+            <a>Cloud Crawler Trading</a>
           </Link>
         </p>
         {/* <p className={styles.headerCart}>
@@ -24,7 +24,7 @@ const Header = () => {
         </p> */}
       </Container>
     </header>
-  )
-}
+  );
+};
 
 export default Header;
