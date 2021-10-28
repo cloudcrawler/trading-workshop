@@ -37,12 +37,6 @@ export default function Home() {
           </div>
         </div> */}
 
-        <p className={styles.cart}>
-          <FaShoppingCart />
-          <span>$0.00</span>
-          <Button>View Cart</Button>
-        </p>
-
         <h2 className="sr-only">Available Cards</h2>
         <ul className={styles.products}>
           {products.map((product) => {
@@ -63,7 +57,17 @@ export default function Home() {
                   </a>
                 </Link>
                 <p>
-                  <Button>Add to Cart</Button>
+                  <Button
+                    className="snipcart-add-item"
+                    data-item-name={product.title}
+                    data-item-id={product.id}
+                    data-item-price={product.price}
+                    data-item-url={`/products/${product.id}`}
+                    data-item-description={product.title}
+                    data-item-image={product.image}
+                  >
+                    Add to Cart
+                  </Button>
                 </p>
               </li>
             );

@@ -14,14 +14,14 @@ const Header = () => {
             <a>Cloud Crawler Trading INC.</a>
           </Link>
         </p>
-        {/* <p className={styles.headerCart}>
-          <button>
-            <FaShoppingCart />
-            <span>
-              $0.00
-            </span>
-          </button>
-        </p> */}
+        {
+          <p className={styles.headerCart}>
+            <button className="snipcart-checkout">
+              <FaShoppingCart />
+              <span className="snipcart-total-price">$0.00</span>
+            </button>
+          </p>
+        }
       </Container>
     </header>
   );
