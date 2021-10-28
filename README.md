@@ -1,6 +1,10 @@
 # Shoping cart build on Next.js & Snipcart
 
-Hey, this is the workshop I am working on to get hands on & practice my skill on NPM, Next.js & Snipcart referenced from[](https://github.com/colbyfayock/hyper-bros-trading-workshop). If you also love assignment based learning then this is the place for you: https://github.com/colbyfayock/hyper-bros-trading-workshop
+Hey, this is the workshop I am working on to get hands on & practice my skill on NPM, Next.js & Snipcart referenced from: https://github.com/colbyfayock/hyper-bros-trading-workshop. If you also love assignment based learning then this is the place for you: https://github.com/colbyfayock/hyper-bros-trading-workshop
+
+## Live Demo
+
+https://cctrading.netlify.app
 
 ## Getting Started
 
