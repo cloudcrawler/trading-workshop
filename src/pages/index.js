@@ -10,6 +10,7 @@ import Button from "@components/Button";
 import products from "@data/products.json";
 
 import styles from "@styles/Home.module.scss";
+import { SnipcartProvider } from "use-snipcart";
 
 export default function Home() {
   // function handleOnSearch() {
